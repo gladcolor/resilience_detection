@@ -6,3 +6,6 @@ https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.ht
 A customized dataloader is implemented in `Pytorch_custom_dataloader.py` as class `Image_list_dataloader`.
 
 `Image_list_dataloader` received an csv file and a image directory. In the csv file, the first column is the image name, and the second column is the class_id (from 0 - N).
+
+Setup `data_dir` in line 38.
+
